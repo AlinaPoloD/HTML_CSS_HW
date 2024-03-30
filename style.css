@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+
+.header {  
+  background: #222222;
+
+
+}
+.pink_back{
+  background:#F1E4E6;
+
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 859px;
+  max-height: 75px;
+ 
+
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.picture_man img {
+
+  max-width: 100%;
+
+}
+.header button {
+
+	border: medium none;
+	
+	background: transparent;
+  cursor: pointer;
+}
+.left {
+display: flex;
+gap:41px;
+padding: 18px 0px;
+align-items: flex-end;
+padding-left: 231px;
+}
+.right{
+display: flex;
+justify-content: space-between;
+align-items:center;
+min-width: 169px;
+
+gap: 33px;
+padding-right: 240px;
+
+
+}
+
+.picture_man{
+
+  display: flex;
+
+}
+
+
+
+
+
+  .pink_line{
+ 
+border-left: 12px solid #F16D7F;
+padding-left: 16px;
+margin: 290px 0 381px 0;
+}
+.text{
+margin: 290px 0 381px 0;
+display: flex;
+flex-wrap:wrap ;
+  
+}
+
+h1{
+  
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #222222;
+  font-size: 48px;
+
+
+  
+}
+h2{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  font-size: 32px;
+
+
+
+
+}
+.fashion{
+color: #F16D7F;
+
+
+
+
+}
+
+.logos {
+  width: 1140px;
+  gap:30px;
+
+
+  margin: 65px auto 96px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  }
+.logos img {
+  background-color: #211616B2;}
+
+.picture_text h1{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 100%;
+
+
+}
+.picture_text span{
+
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #F16D7F;
+  font-size: 24px;
+
+
+}
+
+.picture_text {
+
+position: relative;}
+
+.cardList {
+  width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+
+  margin: 48px auto 48px auto;
+
+
+}
+
+.shop h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222222;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+
+}
+.shop h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #9F9F9F;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.card h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  line-height: 16px;
+
+
+}
+.card p {
+  font-family: "Lato";
+  font-weight: 300;
+  color: #5D5D5D;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: normal;
+  line-height: normal;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+.card {
+
+  width: 360px;
+  height: 587px;
+  background-color:#F8F8F8;
+
+}
+.card h4{
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #F16D7F;
+  font-size: 16px;
+  line-height: 19px;
+}
+.info {
+width: 314.74px;
+padding: 24px 16px;
+
+}
+
+.btn_pink{
+
+
+cursor: pointer;
+width: 212px;
+height: 48px;
+
+font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #F26376;
+  font-size: 16px;
+  line-height: 19px;
+border: 1px solid #FF6A6A;background-color: #FFF;
+color: #F26376;
+cursor: pointer;}
+.btn{
+  display: flex;
+justify-content: center;
+padding-bottom: 60px;
+}
+
+
+
+@media(min-width: 768px) and (max-width:1600px){
+
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 424px;
+    max-height: 74px;
+   
+  
+  }
+  .container {
+    max-width: 768px;
+ 
+  }
+  
+  .picture_man img {
+  
+    max-width: 368px;
+    max-height: 368px;
+  
+  }
+
+  .left {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 32px;
+  }
+  .right{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  min-width: 159px;
+  
+  gap: 25px;
+  padding-right: 41.01px;
+  
+  
+  }
+  .basket{
+  padding-left: 17px;
+  max-width: 32px;
+  }
+  
+
+    .pink_line{
+   
+
+  padding-left: 39px;
+  max-height: 92px;
+  margin: 138px 0 137.57px 0;
+
+  }
+  .text{
+    margin: 138.1px 0 151.47px 0;
+
+  }
+  
+  h1{
+    
+
+    font-size: 44px;
+ 
+  
+  
+    
+  }
+  h2{
+
+    font-size: 24px;
+ 
+  }
+  
+  .logos {
+    width: 736px;
+    gap:19px;
+    margin: 65px auto 110px auto;
+
+       }
+       .women {
+      max-width: 231.97px;
+      max-height: 167.62px;
+      }
+.man {
+max-width: 232.04px;
+max-height: 167.62px;}
+.kids {
+  max-width: 232.89px;
+  max-height: 167px;
+}
+
+.acs {
+  max-width: 734.58px;
+  max-height: 116.09px;
+}
+
+  
+  .cardList {
+    width: 736px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+  
+    margin: 72.74px auto 32.48px auto;
+  
+  
+  }
+
+  .shop h1 {
+
+    margin-bottom: 3.3px;
+  
+  }
+
+  
+
+  .card p {
+
+    padding-top: 12.65px;
+    padding-bottom: 18px;
+  
+  }
+  .card {
+  
+   
+    height: 581px;
+
+  
+  }
+
+  .info {
+
+  padding: 24px 16px;
+  
+  }
+  
+
+  .btn{
+
+  padding-bottom: 70.52px;
+  }
+
+}
