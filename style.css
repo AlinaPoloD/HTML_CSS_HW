@@ -83,6 +83,7 @@ padding-right: 240px;
 border-left: 12px solid #F16D7F;
 padding-left: 16px;
 margin: 290px 0 381px 0;
+margin-left: 63.42px;
 }
 .text{
 margin: 290px 0 381px 0;
@@ -312,9 +313,10 @@ padding-bottom: 60px;
     .pink_line{
    
 
-  padding-left: 39px;
+  padding-left: 16px;
   max-height: 92px;
   margin: 138px 0 137.57px 0;
+  margin-left: 39px;
 
   }
   .text{
@@ -406,5 +408,132 @@ max-height: 167.62px;}
 
   padding-bottom: 70.52px;
   }
+
+}
+
+@media(max-width:767px){
+  .container {
+    max-width: 375px;
+  
+  }
+  .delete {
+  display: none;}
+
+  .navigation {
+    gap: 200px;
+  }
+  
+  
+  .picture_man img {
+  
+  display: none;
+  
+  }
+
+  .left {
+
+  padding-left: 16px;
+  }
+  .right{
+  min-width: 32px;
+
+  padding-right: 16px;
+  
+  
+  }
+
+    .pink_line{
+   
+
+  padding-left: 15px;
+  max-height: 61px;
+  margin: 150px 0 152px 0;
+  margin-left: 56px;
+
+  }
+  .text{
+    margin: 148px 0 149px 0;
+    max-height: 66px;
+
+  }
+  
+  h1{
+    
+
+    font-size: 38px;
+
+ 
+  
+  
+    
+  }
+  h2{
+
+    font-size: 20px;
+   
+ 
+  }
+  
+  .logos {
+    width: 375px;
+    gap:32px;
+    margin: 64px auto 64px auto;
+
+       }
+
+.women {
+      max-width: 343px;
+      max-height: 247px;
+      }
+.man {
+max-width: 344px;
+max-height: 249px;}
+.kids {
+  max-width: 343px;
+  max-height: 248px;
+}
+
+.acs {
+  max-width: 343.26px;
+  height: 111px;
+ 
+}
+.acs img {
+  background-position: center;
+  object-fit: cover;
+}
+
+.card {
+
+  width: 359px;
+  height: 579.39px;
+  background-color:#F8F8F8;
+
+}
+
+  
+  .cardList {
+    width: 375px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:16px;
+
+  
+    margin: 64.7px auto 40.61px auto;
+
+  
+  }
+
+
+
+
+  .btn{
+
+  padding-bottom: 85px;
+  }
+
+
+
+
 
 }
