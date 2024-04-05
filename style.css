@@ -68,6 +68,8 @@ padding-right: 240px;
 
 
 }
+
+
 .basket {position: relative;}
 .basket_count{
   width: 19px;
@@ -91,11 +93,6 @@ padding-right: 240px;
 
 
 
-.picture_man{
-
-  display: flex;
-
-}
 
 
 
@@ -115,7 +112,73 @@ flex-wrap:wrap ;
   
 }
 
-h1{
+.hidden {display: none;}
+.menu-heading {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  padding-bottom: 24px;
+  margin-right: 144px;
+  width: 55px;
+
+
+}
+
+.menu_text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color:#F16D7F;
+  font-size: 14px;
+  padding-bottom: 12px;
+
+}
+.drop-menu {display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-left: 21.5px;
+  gap:12.6px
+  }
+.drop-menu a{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+color: #6F6E6E;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.picture_man {
+
+  display: flex;
+
+
+
+}
+.main{ position: relative;}
+.menu-active {background-color: #FFFFFF;
+
+max-width: 100%;
+padding-left: 32px;
+padding-top: 32px;
+padding-bottom: 12px;
+position: absolute;
+right: 0;
+top: 75px;
+z-index: 3;
+opacity: 1;
+
+
+
+
+}
+
+
+
+h5{
   
   font-family: "Lato", sans-serif;
   font-weight: 900;
@@ -161,7 +224,7 @@ position: relative;}
 
 
 
-.picture_text h1{
+.picture_text h5{
   position: absolute;
   top:50%;
   left: 50%;
@@ -184,10 +247,14 @@ position: relative;}
 
 
 }
-
+.acs {
+height: 180px;
+}
 .picture_text {
 
-position: relative;}
+position: relative;
+max-height: 260px;}
+
 
 .cardList {
   width: 1140px;
@@ -196,12 +263,12 @@ position: relative;}
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
 
-  margin: 48px auto 48px auto;
+  margin: 46px auto 48px auto;
 
 
 }
 
-.shop h1 {
+.shop h5 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #222222;
@@ -250,7 +317,7 @@ position: relative;}
   position: relative;
 
   width: 360px;
-  height: 587px;
+  height: 581px;
   background-color:#F8F8F8;
   display: flex;
   flex-direction: column-reverse;
@@ -286,7 +353,10 @@ opacity: 30%;
 }
 .info {
 width: 314.74px;
-padding: 24px 16px;
+padding-left: 16px;
+padding-top: 24px;
+padding-bottom: 20px;
+
 
 }
 
@@ -308,7 +378,7 @@ cursor: pointer;}
 .btn{
   display: flex;
 justify-content: center;
-padding-bottom: 60px;
+padding-bottom: 95px;
 }
 .btn_pink:hover {
   background-color: #F16D7F;
@@ -326,11 +396,10 @@ background: #222224;
 }
 .bonus { 
   height: 341px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  
   display: flex;
   align-items: center;
-justify-content: space-around;
+justify-content: center;
   gap:30px;
 
 
@@ -345,7 +414,7 @@ align-items: center;
 
 
 }
-.box h1 {
+.box h5 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #FBFBFB;
@@ -364,12 +433,10 @@ align-items: center;
 
 
 }
-.box img {
-justify-content: baseline;
-}
+
 
 .white_section {
-  background-image: url(img/photo\ subscribe.png);
+  background-image: url(img/photosubscribe.png);
   background-size: cover;
   background-color: #F4F4F4B2;
   height: 448px;
@@ -377,21 +444,22 @@ justify-content: baseline;
 
 
 }
+
 .rew_sub {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
   height: 448px;
   gap:223px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
 
 }
 .review {
-  height: 134px;
+  height: 225px;
   width: 360px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 padding-top: 97px;
 
 
@@ -411,6 +479,7 @@ color: #222224;
 
 
 }
+
 .subscribe {
   width: 557px;
 
@@ -520,7 +589,7 @@ top: 0;}
  
   
   
-  .addbutton {
+  .add_button {
     position: absolute;
     display: flex;
     align-items: center;
@@ -635,7 +704,7 @@ opacity: 1;
 
   }
   
-  h1{
+  h5{
     
 
     font-size: 44px;
@@ -686,7 +755,7 @@ max-height: 167.62px;}
   
   }
 
-  .shop h1 {
+  .shop h5 {
 
     margin-bottom: 3.3px;
   
@@ -855,7 +924,7 @@ max-height: 167.62px;}
 
   }
   
-  h1{
+  h5{
     
 
     font-size: 38px;
@@ -1024,10 +1093,12 @@ height: 143px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center; 
-align-items: end 9px;
+
 }
 
-.text_foot {order: 2;}
+.text_foot {
+  order: 2;
+}
   
 
 
